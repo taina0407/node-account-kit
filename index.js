@@ -49,9 +49,6 @@ function AccountKit() {
         url: token_exchange_url,
         json: true
       }, function(error, resp, respBody) {
-        console.log();
-        console.log(params);
-        console.log(respBody);
         if (error) {
           return callback(error);
         } else if (respBody.error) {
@@ -70,9 +67,6 @@ function AccountKit() {
           url: me_endpoint_url,
           json: true
         }, function(err, resp, respBody) {
-          console.log();
-          console.log(params);
-          console.log(respBody);
           if (error) {
             return callback(error);
           } else if (respBody.error) {
