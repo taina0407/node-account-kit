@@ -17,12 +17,12 @@ npm install node-accountkit
 
 **Step 1** Include module to your server.js
 ```javascript
-var accountkit = require ('node-accountkit');
+var Accountkit = require ('node-accountkit');
 ```
 **Step 2** Configure account kit.
 ```javascript
-accountkit.set ("API_VERSION", "APP_ID", "ACCOUNT_KIT_APP_SECRET");
-accountkit.requireAppSecret (true); // if you have enabled this option, default = true
+Accountkit.set ("APP_ID", "ACCOUNT_KIT_APP_SECRET"[, "API_VERSION"]); //API_VERSION is optional, default = v1.1
+Accountkit.requireAppSecret (true); // if you have enabled this option, default = true
 ```
 More information [https://developers.facebook.com/apps/](https://developers.facebook.com/apps/)
 
@@ -30,7 +30,7 @@ More information [https://developers.facebook.com/apps/](https://developers.face
 **Step 4** Use it.
 ```javascript
 //authorization_code are the authorizaition code that we get from account kit login operation. look for sample app for more usage information.
-accountkit.getAccountInfo (authorization_code, function(err, resp) {
+Accountkit.getAccountInfo (authorization_code, function(err, resp) {
     /**
     {
         "email": {
@@ -42,7 +42,7 @@ accountkit.getAccountInfo (authorization_code, function(err, resp) {
 });
 // Account Removal
 //accountId is accountkit user id
-accountkit.removeUser(accountId, function(err, resp){
+Accountkit.removeUser(accountId, function(err, resp){
     /**
     {
         "success": true
