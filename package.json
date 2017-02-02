@@ -1,6 +1,6 @@
 {
-    "name": "node-account-kit",
-    "version": "1.0.0",
+    "name": "node-accountkit",
+    "version": "1.1.0",
     "description": "server side handling for account kit.",
     "main": "index.js",
     "scripts": {
@@ -8,18 +8,25 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sgoyalnet/node-account-kit.git"
+        "url": "git+https://github.com/taina0407/node-accountkit.git"
     },
     "keywords": [
-        "nodejs account kit",
-        "account kit"
+        "nodejs accountkit",
+        "facebook accountkit",
+        "facebook accountkit sdk",
+        "facebook accountkit nodejs sdk",
+        "accountkit nodejs sdk",
+        "accountkit",
+        "nodejs account-kit",
+        "facebook account-kit",
+        "account-kit"
     ],
-    "author": "Shubham Goyal",
+    "author": "Tai NA",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/sgoyalnet/node-account-kit/issues"
+        "url": "https://github.com/taina0407/node-accountkit/issues"
     },
-    "homepage": "https://github.com/sgoyalnet/node-account-kit#readme",
+    "homepage": "https://github.com/taina0407/node-accountkit#readme",
     "dependencies": {
         "guid":"*",
         "request":"*",
