@@ -6,7 +6,7 @@ node-accountkit is a nodeJS module to handle accountkit server side implementati
 Full documentation for account kit can be found here [https://developers.facebook.com/docs/accountkit/web](https://developers.facebook.com/docs/accountkit/web)
 
 ### Version
-1.1.0
+1.1.3
 
 ### Installation
 
@@ -59,4 +59,3 @@ Accountkit.removeUser(accountId, function(err, resp){
 ### Contribute
 
 Feel free to fork it on Github :)
-
