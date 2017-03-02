@@ -87,7 +87,7 @@ function AccountKit() {
       Request.del({
         url: delUrl,
         json: true
-      }, function(err, resp, respBody) {
+      }, function(error, resp, respBody) {
         if (error) {
           return callback(error);
         } else if (respBody.error) {
