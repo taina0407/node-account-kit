@@ -1,6 +1,6 @@
 {
     "name": "node-accountkit",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "description": "server side handling for account kit.",
     "main": "index.js",
     "scripts": {
