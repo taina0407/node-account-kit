@@ -66,7 +66,7 @@ function AccountKit() {
         Request.get({
           url: me_endpoint_url,
           json: true
-        }, function(err, resp, respBody) {
+        }, function(error, resp, respBody) {
           if (error) {
             return callback(error);
           } else if (respBody.error) {
