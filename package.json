@@ -28,7 +28,6 @@
     },
     "homepage": "https://github.com/taina0407/node-accountkit#readme",
     "dependencies": {
-        "crypto": "^0.0.3",
         "querystring": "^0.2.0",
         "request": "^2.81.0"
     }
