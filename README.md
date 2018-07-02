@@ -21,7 +21,7 @@ var Accountkit = require ('node-accountkit');
 ```
 **Step 2** Configure account kit.
 ```javascript
-Accountkit.set ("APP_ID", "ACCOUNT_KIT_APP_SECRET"[, "API_VERSION"]); //API_VERSION is optional, default = v1.1
+Accountkit.set ("APP_ID", "ACCOUNT_KIT_APP_SECRET", "API_VERSION"); //API_VERSION is optional, default = v1.1
 Accountkit.requireAppSecret (true); // if you have enabled this option, default = true
 ```
 More information [https://developers.facebook.com/apps/](https://developers.facebook.com/apps/)
